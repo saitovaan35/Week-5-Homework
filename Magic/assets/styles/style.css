@@ -1,0 +1,66 @@
+
+
+
+h1{
+font-size: x-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 400;
+color: #b10f94;
+text-align: center;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    width: 100%;
+    min-height: 40px;
+    background-color: #d2691e;
+}
+.root{
+    width: 100%;
+    min-height: 300px;
+    border: violet dashed;
+    border-radius: 40px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: stretch; */
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+/* header{
+    width: 100%;
+    min-height: 50px;
+    background-color: aquamarine;
+} */
+
+.card{
+    background-color: azure;
+    width:30% ;
+    min-height: 40px;
+    border-radius: 50px;
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img{
+    width: 100%;
+    /* min-height: 40px; */
+    border-radius: 50px;
+    height: 300px;
+    cursor:zoom-out;
+    /* zoom-in проявляется, но сообщение не меняется */
+}
+button{
+    background-color:#d2691e ;
+    cursor: grabbing;}
+
+.sub {
+    text-align: center;
+}
+
